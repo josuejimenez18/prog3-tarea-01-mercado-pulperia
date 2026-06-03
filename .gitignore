@@ -1,0 +1,15 @@
+# Compilados / build
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+nbproject/private/
+.settings/
+.classpath
+.project
+
+# Sistema
+.DS_Store
