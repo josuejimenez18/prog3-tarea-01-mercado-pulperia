@@ -4,10 +4,10 @@ package mercado;
  * Producto de limpieza: gravado con IVA 13% y con descuento propio.
  *
  * Esta clase practica cuatro pilares POO:
- *   Herencia       — extends Producto (reutiliza nombre, precio, cantidad via super)
- *   Abstracción    — implementa precioFinal() que Producto obliga a definir
- *   Encapsulamiento — porcentajeDescuento es private y solo cambia via setter validado
- *   Overloading    — dos versiones de promo()
+ * Herencia       — extends Producto (reutiliza nombre, precio, cantidad via super)
+ * Abstracción    — implementa precioFinal() que Producto obliga a definir
+ * Encapsulamiento — porcentajeDescuento es private y solo cambia via setter validado
+ * Overloading    — dos versiones de promo()
  *
  * Referencia: lea Abarrote.java (precioFinal) y Fruta.java (interface) antes de empezar.
  */
@@ -20,7 +20,7 @@ public class Limpieza extends Producto implements Descontable {
     // HERENCIA: super(...) delega los atributos comunes a Producto.
     public Limpieza(String nombre, double precioBase, int cantidad, double porcentajeDescuento) {
         super(nombre, precioBase, cantidad);
-        // TODO: inicializar el atributo de descuento
+        this.porcentajeDescuento = porcentajeDescuento;
     }
 
     // ABSTRACCIÓN: contrato que Producto obliga a cada subclase a definir.
