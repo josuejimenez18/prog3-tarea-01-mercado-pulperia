@@ -110,3 +110,16 @@ public class Main {
         */
     }
 }
+
+//  Explicación :  
+
+     //   Precio final : Calculamos el subtotal, le sumamos el 13% de IVA y luego restamos el monto del descuento.
+    // Aplicar descuento :  Calculamos cuánto dinero representa ese porcentaje de descuento sobre el subtotal.
+
+ // Set porcentaje descuento :  Validamos que el descuento esté entre 0 y 1 (o sea, entre 0% y 100%).
+
+     //Promo :  Usamos overloading para imprimir información simple o detallada. 
+
+// 8 junio 2026
+
+    
